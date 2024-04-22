@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/v1/message
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "Hello, World!",
+    "partition":0
+}
+
+####
+
+POST https://lucali-messageflink.azurewebsites.net/api/v1/message
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "Hello, App Service!",
+    "partition":0
+}
